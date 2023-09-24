@@ -5,5 +5,5 @@ use App\src\AdminApp;
 
 require_once "vendor/autoload.php";
 
-$cliApp= new AdminApp();
-$cliApp->run();
+$adminApp= new AdminApp();
+$adminApp->run();

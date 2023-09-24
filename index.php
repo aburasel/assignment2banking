@@ -5,5 +5,5 @@ use App\src\CustomerApp;
 
 require_once "vendor/autoload.php";
 
-$cliApp= new CustomerApp();
-$cliApp->run();
+$customerApp= new CustomerApp();
+$customerApp->run();
